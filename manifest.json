@@ -1,0 +1,11 @@
+{
+	"id": "flow cards 1.0",
+	"name": "Flow Cards",
+	"version": "1.0",
+	"minAppVersion": "1.0",
+	"description": "『默认快捷键 F8』含有一个计时器（支持暂停复制）和卡片轮播器（支持暂停和刷新），可设置轮播的文件；提供遮挡模式",
+	"author": "Az7land",
+	"authorUrl": "https://github.com/Az7land/flow-cards",
+	"isDesktopOnly": false
+}
+

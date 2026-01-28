@@ -1,0 +1,152 @@
+/* styles.css */
+/* 计时区 */
+.custom-timer-container{
+    background-color: rgb(215, 213, 209);
+    padding: 30px 0;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.timer{
+    text-align: center;
+    margin: 0 auto;
+}
+.timer-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+.timer-button{
+    width: 50px;
+    height: 30px;
+    font-weight: 500;
+}
+.timer-button+.timer-button{
+    margin-left: 10px;
+}
+.timer-button:hover{
+    background: rgb(224, 224, 224);
+}
+.timer{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "方正昊格阅楷真 GB18030L2";
+}
+/* 轮播区 */
+.custom-carousel-container{
+    margin-top: 20px;
+    padding: 12px 0 15px;
+    background-color: rgb(207, 202, 196);
+    height: auto;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.carousel{
+    min-height: 80px;
+    max-height: 120px;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carousel-A{
+    font-family: "得意黑";
+    font-size: 28px;
+}
+.carousel-B{
+    font-family: "方正昊格阅楷真 GB18030L2";
+    font-size: 24px; 
+}
+.carousel-line{
+    margin: 0;
+    border-bottom: 3px dotted #959595;
+}
+.carousel-A:hover,
+.carousel-B:hover{
+    opacity: 1 !important;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.carousel-area{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+.carousel-refresher{
+}
+.carousel-pauser{
+} 
+
+/* 设置页 */
+.setting-info{
+    display: flex;
+    align-items: center;
+}
+.setting-info>*{
+    float: right;
+}
+.setting-info h2{
+    float: left;
+    width: 420px;
+}
+.setting-info span{
+    width: 190px;
+}
+
+
+.setting-headers {
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+.setting-headers .headers-tab{
+    float: left;
+    display: block;
+    width: 120px;
+    line-height: 36px;
+    margin: 0;
+    margin-right: 16px;
+    border-radius: 6px;
+    color: #b77c6c;
+    background: transparent;
+    border: 1px solid #f8cfcf;
+
+}
+.setting-headers .headers-tab.checked-now,
+.setting-headers .headers-tab:hover{
+    color: rgb(247, 233, 216);
+    background: #e76464;
+    border: 1px solid transparent;
+}
+.setting-content{
+    display: block;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px dashed #f8cfcf;
+}
+.setting-content .flow-cards-side-leaf{
+    
+}
+.flow-cards-side-leaf.setting-flow{
+
+}
+.flow-cards-side-leaf.setting-card{
+
+}

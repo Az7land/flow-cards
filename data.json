@@ -1,0 +1,17 @@
+{
+  "dictionaryFileName": "",
+  "intervals": "  ",
+  "startLine": 1,
+  "endLine": -2,
+  "setCoverMode": "-1",
+  "carouselIntervalTime": 5000,
+  "timerStartPauseHotkey": "Ctrl+Shift+T",
+  "timerResetHotkey": "Ctrl+Shift+R",
+  "carouselPauseHotkey": "Ctrl+Shift+P",
+  "openViewHotkey": "F8",
+  "totalLines": 54,
+  "syncInterval": "30",
+  "apiKey": "",
+  "advancedMode": false,
+  "coverMode": "0"
+}
